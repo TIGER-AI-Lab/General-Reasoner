@@ -216,11 +216,12 @@ This project is built upon the following open-source projects:
 ## Citation
 
 ```tex
-@article{general-reasoner,
-      title={General-Reasoner: Advancing LLM Reasoning Across All Domains}, 
-      author={Xueguang Ma and Qian Liu and Dongfu Jiang and Ge Zhang and Zejun Ma and Wenhu Chen},
-      year={2025},
-      journal={arXiv:2505.14652},
-      url={https://arxiv.org/abs/2505.14652}, 
+@inproceedings{
+  ma2025generalreasoner,
+  title={General-Reasoner: Advancing {LLM} Reasoning Across All Domains},
+  author={Xueguang Ma and Qian Liu and Dongfu Jiang and Ge Zhang and Zejun MA and Wenhu Chen},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  url={https://openreview.net/forum?id=pBFVoll8Xa}
 }
 ```
