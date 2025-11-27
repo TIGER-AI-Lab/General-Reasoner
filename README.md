@@ -212,6 +212,16 @@ This project is built upon the following open-source projects:
 - [simpleRL-reason](https://github.com/hkust-nlp/simpleRL-reason)  
 - [simple-evals](https://github.com/openai/simple-evals)
 
+## Train General Reasoner with Tinker
+
+We provide the training code to use Tinker to train general reasoner. All you need is a single local GPU to host the verifier model.
+
+Please follow the [official instruction](https://github.com/thinking-machines-lab/tinker-cookbook) to install tinker.
+
+Then run the script `python tinker_scripts/tinker_train_general_reasoner.py`
+
+After the training, the lora model can be downloaded and then merged with the script `python tinker_scripts/merge_checkpoints.py`
+
 
 ## Citation
 
